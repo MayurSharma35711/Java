@@ -1,0 +1,15 @@
+import java.awt.GraphicsConfiguration;
+import javax.swing.JFrame;
+
+public class window{
+	public static void main(String args[])
+	{
+		static GraphicsConfiguration gc;
+		JFrame platform = new JFrame("Dotbook Manager", gc);
+		platform.setSize(600,400);
+		platform.setLocation(0,0);
+		platform.setVisible(true);
+		platform.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		platform.setResizable(true);
+	}	
+}
